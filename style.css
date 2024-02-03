@@ -1,0 +1,37 @@
+.container{
+    background-color:white;
+    padding:20px;
+    margin:30px;
+   border-radius:10px;
+box-shadow: 10px 10px 3px #000000;
+}
+h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+body{
+    background-color:#FFD85D;
+}
+img{
+    width:260px;
+    height:150px;
+    border-radius:5px;
+}
+.imgcontainer{
+    text-align:center;
+}
+button{
+    background-color: #FFD85D;
+    border-radius: 5px;
+    border-color:#FFD85D;
+    height:30px;
+}
+.subtext{
+    font-size:10px;
+    font-weight: bold;
+}
+@media(min-width:480px){
+    img{
+        width:600px;
+    }
+}
